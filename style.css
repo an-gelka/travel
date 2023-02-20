@@ -256,7 +256,8 @@ position: absolute;
     background: #F2785C;
 }
 
-.findMore {   
+.findMore {  
+    position: relative; 
     margin-top: 40px;
     width: 228px;
     height: 59px;
@@ -273,4 +274,61 @@ position: absolute;
     font-size: 24px;
     line-height: 32px;
     text-transform: capitalize;
+}
+#stories {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1201px;
+    height: 1322px;
+    margin: 1639px 120px auto 119px;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 250px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #0D606F;
+}
+
+.one {
+    margin-top: 80px;
+}
+
+.text {
+    margin-left: 40px;    
+}
+
+h3 {
+    margin-bottom: 24px;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+}
+
+.story p {
+    display: -webkit-box;
+    width: 760px;
+    /* height: 184px; */
+    height: 143px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;        
+}
+
+.text a {
+    font-weight: 700;
+    text-transform: capitalize;    
+    color: #0D606F;
+}
+
+.text a:hover {
+    text-decoration: underline;
 }
