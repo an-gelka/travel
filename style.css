@@ -61,6 +61,11 @@ header {
     line-height: 21px;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .btn {
     display: flex;
     justify-content: center;
@@ -84,7 +89,7 @@ button p {
     line-height: 21px;
     color: #FFFFFF;
 }
-.preview {
+#preview {
     position: absolute;
     width: 892px;
     height: 422px;
@@ -188,4 +193,84 @@ h2 {
     font-size: 20px;
     line-height: 24px;
     color: #0D606F;
+}
+
+#destinations {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 1042px;
+    margin-top: 424px;
+}
+
+.conteinerForDestination {
+    width: 2480px;
+    height: 800px;
+    margin-top: 46px;
+    /* margin-left: -540px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+.photo img {
+position: absolute;
+}
+
+.photo p {
+    display: block;
+    position: absolute;
+    height: 42px;
+    margin: 718px 677px 40px 15px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.conteinerForSlide {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    height: 20px;
+    margin: 24px 679px auto auto;
+}
+
+.slide {
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 100%;
+}
+
+.slide:active {
+    background: #F2785C;
+}
+
+.findMore {   
+    margin-top: 40px;
+    width: 228px;
+    height: 59px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(40px + 10px + 116px);
+}
+
+.findMore p {
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
 }
