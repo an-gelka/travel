@@ -11,13 +11,19 @@ body {
     color: #FFFFFF;
 }
 
-.preview {
+.previewPhoto {
+    position: relative;
     width: 1440px;
     height: 765px;
-    background: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
+    /* background: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png); */
+}
+
+.previewPhoto img {
+    position: absolute;
 }
 
 header {
+    position: absolute;
     width: 1440px;
     height: 90px;
     display: flex;
@@ -78,11 +84,12 @@ button p {
     line-height: 21px;
     color: #FFFFFF;
 }
-.planYourTrip {
-    position: relative;
+.preview {
+    position: absolute;
     width: 892px;
     height: 422px;
-    margin: 32px auto auto 120px;    
+    /* margin: 32px auto auto 120px; */
+    margin: 122px auto auto 120px;    
 }
 
 h1 {    
@@ -139,4 +146,46 @@ h1 {
     font-size: 24px;
     line-height: 29px;
     color: #F2785C;
+}
+
+.steps {
+    position: absolute;
+    width: 1177px;
+    height: 247px;
+    margin: 80px 132px auto 131px;
+}
+
+h2 {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2785C;
+}
+
+.conteinerForSteps {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1177px;
+    height: 154px;
+    margin-top: 40px;
+}
+
+.stepBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 317px; */
+}
+
+.stepBlock p {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
 }
