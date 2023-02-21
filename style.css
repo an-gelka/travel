@@ -4,6 +4,9 @@
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Aleo', serif;
     /* font-family: 'Magra', sans-serif;
     font-family: 'Red Hat Text', sans-serif; */
@@ -18,7 +21,7 @@ body {
     /* background: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png); */
 }
 
-.previewPhoto img {
+.screen {
     position: absolute;
 }
 
@@ -259,6 +262,7 @@ position: absolute;
 .findMore {  
     position: relative; 
     margin-top: 40px;
+    /* margin-bottom: 40px; */
     width: 228px;
     height: 59px;
 }
@@ -271,6 +275,8 @@ position: absolute;
 }
 
 .findMore p {
+    display: block;
+    width: 116px;
     font-size: 24px;
     line-height: 32px;
     text-transform: capitalize;
@@ -282,7 +288,7 @@ position: absolute;
     align-items: center;
     width: 1201px;
     height: 1322px;
-    margin: 1639px 120px auto 119px;
+    margin: 1546px 120px auto 119px;
 }
 
 .story {
@@ -297,6 +303,10 @@ position: absolute;
 
 .one {
     margin-top: 80px;
+}
+
+.last {
+    margin-bottom: 0;
 }
 
 .text {
@@ -331,4 +341,42 @@ h3 {
 
 .text a:hover {
     text-decoration: underline;
+}
+
+.blackout {
+  position: absolute;
+  width: 1445px;
+  height: 1270px;
+  margin-top: 1639px;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.footerImg {
+  position: absolute;
+  width: 1442px;
+  height: 1331px;
+  margin-top: 1639px;
+  z-index: -2;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 728.96px;
+  height: 33.65px;
+  margin: 2923px 121.04px 13.35px 590px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.socialIcon {
+  display: flex;
+  justify-content: space-between;
+  width: 140.96px;
+  
 }
