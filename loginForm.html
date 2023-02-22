@@ -14,5 +14,37 @@
 <body>
   <div class="conteinerForLogin">
     <h3 class="title">Log in to your account</h3>
+    <button class="btnForLogin">
+      <div class="btnSocial">
+        <img src="icon/facebook.svg" alt="facebook">
+        <p>Sign In with Facebook</p>
+      </div>
+    </button>
+    <button class="btnForLogin forGoogle">
+      <div class="btnSocial google">
+        <img src="icon/google.svg" alt="google">
+        <p style="color:#0D606F">Sign In with Google</p>
+      </div>
+    </button>
+    <div class="line">
+      <div class="miniLine"></div>
+      <p>or</p>
+      <div class="miniLine"></div>
+    </div>
+    <form class="loginForm">
+      <div class="dataInput">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" class="btnForLogin">
+      </div>
+      <div class="dataInput">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="btnForLogin">
+      </div>
+      <button class="btnForLogin signIn">
+        <p>Sign In</p>
+      </button>
+      <p><a class="textInLogin" href="http://" target="_blank">Forgot Your Password?</a></p>
+    </form>
+    <div class="line maxLine"></div>
   </div>
 </body>
